@@ -1,0 +1,23 @@
+# Ignore derivatives
+bids/derivatives/
+
+# Ignore scratch
+bids/scratch/
+
+# Ignore raw imaging files (extra safety)
+*.nii
+*.nii.gz
+*.mgz
+
+# FreeSurfer outputs
+*.mgz
+
+# logs
+*.log
+
+# python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store

@@ -1,0 +1,2 @@
+*.nii.gz annex.largefiles=(largerthan=10MB)
+*.nii annex.largefiles=(largerthan=10MB)
