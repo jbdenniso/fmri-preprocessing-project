@@ -16,7 +16,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 PROJECT_ROOT="$(dirname "$(dirname "$SCRIPT_DIR")")"
 
 BIDS_DIR="$PROJECT_ROOT/bids/ds005123"
-DERIV_DIR="$PROJECT_ROOT/bids/derivatives"
+DERIV_DIR="$PROJECT_ROOT/bids/derivatives/fmriprep"
 SCRATCH_DIR="$PROJECT_ROOT/bids/scratch"
 LICENSE_FILE="$PROJECT_ROOT/license.txt"
 
