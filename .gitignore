@@ -1,5 +1,5 @@
 # Ignore derivatives
-bids/derivatives/
+bids/ds005123
 
 # Ignore scratch
 bids/scratch/
@@ -8,6 +8,7 @@ bids/scratch/
 *.nii
 *.nii.gz
 *.mgz
+*.json #not really imaging files but there's a lot of these sidecars
 
 # FreeSurfer outputs
 *.mgz

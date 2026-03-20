@@ -1,0 +1,37 @@
+{
+    "BIDSVersion": "1.5.0",
+    "DatasetType": "derivative",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/ME-ICA/tedana",
+            "Command": "tedana_workflow(data=['bids/derivatives/fmriprep/sub-10317/func/sub-10317_task-doors_run-1_echo-1_part-mag_desc-preproc_bold.nii.gz', 'bids/derivatives/fmriprep/sub-10317/func/sub-10317_task-doors_run-1_echo-2_part-mag_desc-preproc_bold.nii.gz', 'bids/derivatives/fmriprep/sub-10317/func/sub-10317_task-doors_run-1_echo-3_part-mag_desc-preproc_bold.nii.gz', 'bids/derivatives/fmriprep/sub-10317/func/sub-10317_task-doors_run-1_echo-4_part-mag_desc-preproc_bold.nii.gz'], tes=[13.799999999999999, 31.54, 49.279999999999994, 67.02], out_dir=/home/jeffrey/Projects/Tensor_TE/bids/derivatives/tedana/sub-10317, mask=bids/derivatives/fmriprep/sub-10317/func/sub-10317_task-doors_run-1_part-mag_desc-brain_mask.nii.gz, convention=bids, prefix=sub-10317_task_, dummy_scans=0, masktype=['dropout'], fittype=curvefit, combmode=t2s, n_independent_echos=None, tree=tedana_orig, external_regressors=None, ica_method=fastica, n_robust_runs=30, tedpca=kic, fixed_seed=42, maxit=500, maxrestart=10, tedort=False, gscontrol=None, no_reports=False, png_cmap=coolwarm, verbose=True, low_mem=False, debug=False, quiet=False, overwrite=True, t2smap=None, mixing_file=None, n_threads=1)",
+            "Description": "A denoising pipeline for the identification and removal of non-BOLD noise from multi-echo fMRI data.",
+            "Name": "tedana",
+            "Node": {
+                "Machine": "x86_64",
+                "Name": "Jeffs-Laptop",
+                "Processor": "x86_64",
+                "Release": "6.8.0-85-generic",
+                "System": "Linux",
+                "Version": "#85~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep 19 16:18:59 UTC 2"
+            },
+            "Python": "3.11.4 (main, Jul  5 2023, 14:15:25) [GCC 11.2.0]",
+            "Python_Libraries": {
+                "bokeh": "3.2.1",
+                "mapca": "0.0.6",
+                "matplotlib": "3.10.6",
+                "nibabel": "5.3.1",
+                "nilearn": "0.13.1",
+                "numpy": "1.26.4",
+                "pandas": "2.3.0",
+                "robustica": "0.1.4",
+                "scikit-learn": "1.8.0",
+                "scipy": "1.10.1",
+                "threadpoolctl": "3.6.0",
+                "tqdm": "4.65.0"
+            },
+            "Version": "26.0.0"
+        }
+    ],
+    "Name": "tedana Outputs"
+}

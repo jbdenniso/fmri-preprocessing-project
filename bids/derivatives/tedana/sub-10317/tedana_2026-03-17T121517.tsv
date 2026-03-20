@@ -1,0 +1,10 @@
+2026-03-17T12:15:17	tedana.tedana_workflow	INFO    	Using output directory: /home/jeffrey/Projects/Tensor_TE/bids/derivatives/tedana/sub-10317
+2026-03-17T12:15:17	utils.check_te_values	WARNING 	TE values appear to be in milliseconds. Per BIDS convention, echo times should be provided in seconds. Support for millisecond TE values is deprecated and will be removed in a future version. Please provide TE values in seconds.
+2026-03-17T12:15:17	tedana.tedana_workflow	INFO    	Initializing and validating component selection tree
+2026-03-17T12:15:17	component_selector.validate_tree	WARNING 	Decision tree includes fields that are not used or logged ['_comment']
+2026-03-17T12:15:17	component_selector.__init__    	INFO    	Performing component selection with tedana_orig_decision_tree
+2026-03-17T12:15:17	component_selector.__init__    	INFO    	Very similar to the decision tree designed by Prantik Kundu
+2026-03-17T12:15:17	utils.load_mask   	WARNING 	Computing EPI mask from first echo using nilearn's compute_epi_mask function. Most external pipelines include more reliable masking functions. It is strongly recommended to provide an external mask, and to visually confirm that mask accurately conforms to data boundaries.
+2026-03-17T12:15:19	tedana.tedana_workflow	INFO    	Loading input data: ['bids/derivatives/fmriprep/sub-10317/func/sub-10317_task-ugr_run-1_echo-1_part-mag_desc-preproc_bold.nii.gz', 'bids/derivatives/fmriprep/sub-10317/func/sub-10317_task-ugr_run-1_echo-2_part-mag_desc-preproc_bold.nii.gz', 'bids/derivatives/fmriprep/sub-10317/func/sub-10317_task-ugr_run-1_echo-3_part-mag_desc-preproc_bold.nii.gz', 'bids/derivatives/fmriprep/sub-10317/func/sub-10317_task-ugr_run-1_echo-4_part-mag_desc-preproc_bold.nii.gz']
+2026-03-17T12:15:26	utils.make_adaptive_mask	INFO    	Echo-wise intensity thresholds for adaptive mask: [2030.665   1455.4366   971.65753  700.2497 ]
+2026-03-17T12:15:26	utils.make_adaptive_mask	WARNING 	54 voxels in user-defined mask do not have good signal. Removing voxels from mask.

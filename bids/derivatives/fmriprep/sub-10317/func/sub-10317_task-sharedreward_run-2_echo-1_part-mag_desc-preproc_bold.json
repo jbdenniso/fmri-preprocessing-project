@@ -1,0 +1,9 @@
+{
+  "DelayTime": 0.11250000000000004,
+  "EchoTime": 0.0138,
+  "RepetitionTime": 1.615,
+  "SkullStripped": false,
+  "SliceTimingCorrected": true,
+  "StartTime": 0.751,
+  "TaskName": "sharedreward"
+}

@@ -1,0 +1,7 @@
+{
+  "Sources": [
+    "bids:raw:sub-10317/func/sub-10317_task-trust_run-1_echo-1_part-mag_sbref.nii.gz",
+    "bids::sub-10317/func/sub-10317_task-trust_run-1_from-boldref_to-auto00000_mode-image_desc-fmap_xfm.txt",
+    "bids::sub-10317/fmap/sub-10317_acq-bold_fmapid-auto00000_desc-coeff_fieldmap.nii.gz"
+  ]
+}
