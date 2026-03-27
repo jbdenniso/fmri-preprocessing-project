@@ -74,7 +74,7 @@ for acq in image_prefix_list:
         if (
             f.startswith(acq)
             and f.endswith("_desc-brain_mask.nii.gz")
-            and "space-" not in f   # 👈 THIS LINE FIXES IT
+            and "space-" not in f   # otherwise we're grabbing the transformed brain mask as well
         )
     ]
    
@@ -139,7 +139,7 @@ for acq in image_prefix_list:
         acq_image_files,
         echo_times,
         out_dir=out_dir,
-        prefix=f"sub-{subject}_task",
+        prefix=f"{acq}",
         fittype="curvefit",
         tedpca="kic",
         mask=mask_file,
